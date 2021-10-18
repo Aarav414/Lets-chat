@@ -1,7 +1,7 @@
 function addUser(){
-    login_button = document.getElementById("login_button").value;
+    user_name = document.getElementById("user_name").value;
 
-    localStorage.setItem("login_button", login_button);
+    localStorage.setItem("user_name", user_name);
 
-    window.location = "letschatroom.html";
+    window.location = "letschat_room.html";
 }
